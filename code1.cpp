@@ -15,7 +15,7 @@ int main()
     scanf_s("%f", &x);
     printf("Введіть число y: ");
     scanf_s("%f", &y);
-    a = (10 + cos(pow(x, 2))) / (17 * x) + (fabs(5 * y - y / (1 + pow(x, 3) * y))) / (pow(x - pow(y, 2), 1/3));
+    a = (19 + cos(pow(x, 6))) / (22 * x) + (fabs(45 * y - y / (13 + pow(x, 36) * y))) / (pow(x - pow(y, 24), 1/3));
     
     printf("Результат: %f ", a);
 }
