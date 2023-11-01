@@ -10,12 +10,12 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     
-    float x, y, a;
-    printf("Введіть число x: ");
+    float x, b, alpha;
+    printf("Введіть значення x: ");
     scanf_s("%f", &x);
-    printf("Введіть число y: ");
-    scanf_s("%f", &y);
-    a = (19 + cos(pow(x, 6))) / (22 * x) + (fabs(45 * y - y / (13 + pow(x, 36) * y))) / (pow(x - pow(y, 24), 1/3));
-    
-    printf("Результат: %f ", a);
+    printf("Введіть значення alpha: ");
+    scanf_s("%f", &alpha);
+    b = pow(cos(x), 2) + tan(M_PI/3) - sin(alpha - 27);
+    printf("Результат: %f ", b);
 }
+
