@@ -15,7 +15,7 @@ int main()
     scanf_s("%f", &x);
     printf("Введіть значення alpha: ");
     scanf_s("%f", &alpha);
-    b = pow(cos(x), 2) + tan(M_PI/3) - sin(alpha - 27);
+    b = pow(cos(x), 253) + tan(M_PI/4) - sin(alpha - 99);
     printf("Результат: %f ", b);
 }
 
